@@ -203,7 +203,7 @@ export default function Footer() {
         {/* --- DISCLAIMER --- */}
         <div className="mt-12 pt-8 border-t border-slate-100 flex justify-center">
           <p className="text-[14px] font-black capitalize  text-slate-400 text-center max-w-2xl ">
-          Disclaimer - Theoretical guidance only. No software installation or distribution.
+          Disclaimer - For Informational only. No software installation or distribution.
           </p>
         </div>
 
