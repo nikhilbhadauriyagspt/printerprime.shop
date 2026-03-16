@@ -1,5 +1,5 @@
-// import Hero2 from "@/components/Hero2";
-import Hero from "@/components/Hero";
+import Hero2 from "@/components/Hero2";
+// import Hero from "@/components/Hero";
 import SEO from "@/components/SEO";
 import Features from "@/components/Features";
 import Collections from "@/components/Collections";
@@ -91,8 +91,8 @@ export default function Home() {
         description="Premium destination for professional printers, and essential accessories. Delivering excellence in tech solutions across the USA."
       />
       
-      {/* <Hero2 /> */}
-      <Hero />
+      <Hero2 />
+      {/* <Hero /> */}
       <Features />
       <ShopByCategory categories={data.categories} />
       <Collections />
