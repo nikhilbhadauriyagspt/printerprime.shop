@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
-// import Header from './components/Header';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import Toast from './components/Toast';
 import CartDrawer from './components/CartDrawer';
@@ -39,7 +39,7 @@ import UserManager from './pages/admin/UserManager';
 // Layout wrapper for customer-facing pages
 const ShopLayout = ({ children }) => (
   <div className="bg-white min-h-screen flex flex-col">
-    {/* <Header /> */}
+    <Header />
     <main className="flex-grow">
       {children}
     </main>
