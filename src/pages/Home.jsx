@@ -97,7 +97,6 @@ export default function Home() {
       <ShopByCategory categories={data.categories} />
       <Collections />
       <BestSellers products={data.all} />
-      <BrandShowcase brands={data.brands} />
       <ProductGrid products={data.mixedArrivals.slice(0, 30)} />
 
       <CategorySlider 
